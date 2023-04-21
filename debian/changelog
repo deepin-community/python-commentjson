@@ -1,5 +1,33 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-commentjson (0.9.0-1) unstable; urgency=low
 
-  * Initial release
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Scott Kitterman ]
+  * Add extend-diff-ignore to debian/source/options so package builds twice in
+    a row (Closes: #1000889)
+  * New upstream release
+  * Update debhelper-compat to 13
+  * Bump stanards-version to 4.6.0 without further change
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 06 Dec 2021 17:40:55 -0500
+
+python-commentjson (0.8.3-2) unstable; urgency=medium
+
+  * Source only upload to allow migration to Testing
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 01 Aug 2020 23:22:58 -0400
+
+python-commentjson (0.8.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #961292)
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 22 May 2020 14:15:22 -0400
